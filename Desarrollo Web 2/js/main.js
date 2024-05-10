@@ -1,9 +1,14 @@
-let nombreProducto = "Tostadora"
-let precioUnitario = 20000
-let cantidadDeseada = prompt("Ingrese la Cantidad de Tostadoras que quiere")
- 
-let costoFinal = precioUnitario * cantidadDeseada
+function sumarProductos(precioUnitario, cantidadDeseada) {
 
-console.log(costoFinal);
+    let totalGastado = precioUnitario * cantidadDeseada
+    return totalGastado
+}
 
-alert(costoFinal)
+
+let precio = 500;
+let cantidad = prompt("¿Cuántos alfajores quiere comprar?")
+let totalCompra = sumarProductos(precio,cantidad)
+console.log("El total gastado es de $" + totalCompra);
+
+
+
