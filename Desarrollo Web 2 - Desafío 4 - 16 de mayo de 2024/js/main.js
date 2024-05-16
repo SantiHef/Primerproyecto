@@ -1,7 +1,7 @@
 let productos = [
-    {name:"heladera", precio:3233, stock: 10},
-    {name:"teclado", precio:3233, stock: 10},
-    {name:"laptop", precio:3233, stock: 10},
+    {name:"tostadora", precio:15000, stock: 5},
+    {name:"auriculares", precio:7000, stock: 7},
+    {name:"celular", precio:10000, stock: 10},
 ]
 
 for(let index = 0; index < productos.length; index++) {
