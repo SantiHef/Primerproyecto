@@ -7,7 +7,7 @@ const product = {
 let nombre =  product.name
 let nameChange = product.name = 'Zapato'
 
-delete product.price
+delete product.stock
 
 product.categoria = 'Calzado'
 
